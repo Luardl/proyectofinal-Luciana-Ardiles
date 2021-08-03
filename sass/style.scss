@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+@import url(_Contacto.scss);
+@import url(_Galeria.scss);
+@import url(_Servicios..scss);
+@import url(_Tendencias.scss);
+@import url(_Footer.scss);
+:root {
+    --principal: #0d3b66;
+    --secundario: #faf0ca;
+    --terciario: #ee964b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bona Nova', serif;
+}
+
+.pl10 {
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.pt50 {
+    padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .pt50 {
+        padding-top: 20px;
+    }
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.texto-izquierda {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--terciario);
+}
+
+p {
+    color: var(--principal);
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: var(--principal);
+}
+
+.menu {
+    font-size: 1.2rem;
+}
+
+.video {
+    display: inline-block;
+    text-align: center;
+}
+
+.video__texto {
+    margin-top: 100px;
+    color: rgb(76, 83, 6);
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 640px) {
+    .video__texto {
+        color: var(--secundario);
+        font-size: 2rem;
+        top: 35%;
+        left: 50%;
+    }
+}
+
+.form-contact {
+    text-align: end;
+}

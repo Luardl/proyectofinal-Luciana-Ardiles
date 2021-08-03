@@ -1,0 +1,40 @@
+/* Tendencias */
+.pl10{
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.pt50{
+padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .pt50 {
+        padding-top: 20px;
+    }
+  }
+
+.texto-centrado {
+    text-align: center;
+}
+.texto-izquierda{
+    text-align: justify;
+}
+
+h1{
+    font-size: 3rem;
+    color: var(--principal);
+}
+p{
+    color: rgb(88, 131, 9);
+    font-size: 1.3rem;
+}
+
+
+a:hover {
+    color: var(--principal);
+  }
+
+.menu{
+    font-size: 1.2rem;
+}
