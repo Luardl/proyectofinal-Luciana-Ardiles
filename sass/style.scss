@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap");
 @import url(_Contacto.scss);
 @import url(_Galeria.scss);
 @import url(_Servicios..scss);
@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bona Nova', serif;
+    font-family: "Bona Nova", serif;
 }
 
 .pl10 {
@@ -64,19 +64,44 @@ a:hover {
 }
 
 .video__texto {
+    text-align: center;
     margin-top: 100px;
-    color: rgb(76, 83, 6);
+    color: #ffffff;
     font-size: 4rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 3px 5px 5px rgb(130, 139, 30);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 940px) {
     .video__texto {
-        color: var(--secundario);
+        color: #ffffff;
+        font-size: 3rem;
+        text-shadow: 3px 5px 5px rgb(130, 139, 30);
+        top: 35%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .video__texto {
+        margin-top: 30px;
+        color: #ffffff;
         font-size: 2rem;
+        text-shadow: 3px 5px 5px rgb(130, 139, 30);
+        top: 35%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .video__texto {
+        margin-top: 0px;
+        color: #ffffff;
+        font-size: 1rem;
+        text-shadow: 3px 5px 5px rgb(130, 139, 30);
         top: 35%;
         left: 50%;
     }
@@ -85,3 +110,18 @@ a:hover {
 .form-contact {
     text-align: end;
 }
+
+.card {
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.card:hover,
+.card:active {
+    border-radius: 10px;
+    box-shadow: 0 0px 40px rgba(66, 66, 66, 0.863);
+    transform: translateY(-3px) scale(0.9) rotateX(15deg);
+}
+
+
+/*# sourceMappingURL=style.css.map */

@@ -1,12 +1,12 @@
 {
-  "name": "entrega-16",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "magic":"sass --watch sass/style.scss Css/style.css"
-  },
-  "author": "luciana",
-  "license": "ISC"
+    "name": "entrega-16",
+    "version": "1.0.0",
+    "description": "",
+    "main": "magic",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "magic": "sass --watch sass/style.scss Css/style.css"
+    },
+    "author": "luciana",
+    "license": "ISC"
 }
